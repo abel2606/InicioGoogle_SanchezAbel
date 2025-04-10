@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bienvenida"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Bienvenid@"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/evCorreo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Correo:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/evProveedor"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Proveedor:"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/btnSalir"
+        android:layout_gravity="center"
+        android:text="Salir"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
