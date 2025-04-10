@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "407953924342",
+    "project_id": "practica10-becad",
+    "storage_bucket": "practica10-becad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407953924342:android:06e8f0f1c1a3e429e98cd7",
+        "android_client_info": {
+          "package_name": "sanchez.abel.practica10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjqYsmQPM-IwypEI2rREKrXlr7avDOogQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
